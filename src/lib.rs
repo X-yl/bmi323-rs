@@ -6,7 +6,7 @@
 /// It supports both I2C and SPI interfaces and allows for configuration of accelerometer
 /// and gyroscope settings.
 pub mod device;
-mod interface;
+pub mod interface;
 mod registers;
 pub use registers::Register;
 mod types;
